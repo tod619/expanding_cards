@@ -18,3 +18,25 @@ body {
   margin: 0;
 }
 /* End: Global Styles */
+
+/* Start: Add backgrounds to panels */
+.panel:nth-child(1) {
+  background: url(images/img-1.jpg);
+}
+
+.panel:nth-child(2) {
+  background: url(images/img-2.jpg);
+}
+
+.panel:nth-child(3) {
+  background: url(images/img-3.jpg);
+}
+
+.panel:nth-child(4) {
+  background: url(images/img-4.jpg);
+}
+
+.panel:nth-child(5) {
+  background: url(images/img-5.jpg);
+}
+/* End: Add backgrounds to panels */
