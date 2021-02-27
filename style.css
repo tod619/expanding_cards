@@ -50,27 +50,33 @@ body {
 
 .panel.active h3 {
   opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 /* Start: Add backgrounds to panels */
 .panel:nth-child(1) {
-  background: url(images/img-1.jpg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(images/img-1.jpg) center no-repeat;
 }
 
 .panel:nth-child(2) {
-  background: url(images/img-2.jpg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(images/img-2.jpg) center no-repeat;
 }
 
 .panel:nth-child(3) {
-  background: url(images/img-3.jpg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(images/img-3.jpg) center no-repeat;
 }
 
 .panel:nth-child(4) {
-  background: url(images/img-4.jpg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(images/img-4.jpg) center no-repeat;
 }
 
 .panel:nth-child(5) {
-  background: url(images/img-5.jpg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(images/img-5.jpg) center no-repeat;
 }
 /* End: Add backgrounds to panels */
 
